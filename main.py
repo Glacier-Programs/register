@@ -16,5 +16,8 @@ canvas.pack(fill=BOTH,expand=True)
 run = True
 while run:
   if change():
-    pass
+    if cur_screen == '0':
+      pass
+    elif cur_screen[0] == '1':
+      pass
   canvas.update()
